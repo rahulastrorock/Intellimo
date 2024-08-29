@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Konva from 'konva';
 
-function ResizableImageCanvas() {
+function ImageCanvas() {
   const stageRef = useRef(null);
   const layerRef = useRef(null);
 
@@ -135,4 +135,4 @@ function ResizableImageCanvas() {
   return <div ref={stageRef}></div>;
 }
 
-export default ResizableImageCanvas;
+export default ImageCanvas;
